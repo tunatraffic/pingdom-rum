@@ -108,7 +108,7 @@ function add_PingdomRUM_action_links( $links )
 add_action('wp_head', 'add_PingdomRUM_header');
 
 if(is_admin()) {
-    load_plugin_textdomain('pingdom-rum', 'wp-content/plugins/' . dirname(plugin_basename(__FILE__)) . '/i18n');
+    load_plugin_textdomain('pingdom-rum', false, dirname(plugin_basename(__FILE__)) . '/i18n');
     add_action('admin_menu', 'add_PingdomRUM_admin_page');
     add_filter('plugin_action_links_' . plugin_basename( __FILE__ ), 'add_PingdomRUM_action_links');
 }
