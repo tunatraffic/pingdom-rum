@@ -1,0 +1,14 @@
+{
+    "name": "tunatraffic/pingdom-rum",
+    "description": "Pingdom Real User Monitoring",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "authors": [
+        {
+            "name": "Tuna Traffic",
+            "email": "support@tunatraffic.com"
+        }
+    ]
+}
