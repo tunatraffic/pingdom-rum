@@ -6,6 +6,7 @@ Description: A very simple and easy plugin that adds your Pingdom Real User Moni
 Author: Pingdom AB
 Version: 1.0
 Author URI: https://www.pingdom.com/
+GitHub Plugin URI: tunatraffic/pingdom-rum
 */
 
 // Make sure we don't expose any info if called directly
